@@ -25,7 +25,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to="/">
           <a
-            href="#"
+            href={Bio}
             style={{
               display: "flex",
               alignItems: "center",
