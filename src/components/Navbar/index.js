@@ -17,7 +17,6 @@ import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 
-import { useTheme } from "styled-components";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
