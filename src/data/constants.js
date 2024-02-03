@@ -8,8 +8,6 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1obFiO89yDTCrNfhz31XzwtdfVsyxF3TD/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/amar-ubale",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
 };
 
 export const skills = [

@@ -85,7 +85,7 @@ const index = () => {
         </Desc>
         <TimelineSection>
           <Timeline>
-            {education.map((education, index) => (
+            {education.map((education) => (
               <TimelineItem>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <EducationCard education={education} />
