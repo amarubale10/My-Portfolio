@@ -30,7 +30,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Copyright>&copy; 2024 Amar Ubale. All rights reserved.</Copyright>
+        <Copyright> Design & Built by Amar Ubale.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
