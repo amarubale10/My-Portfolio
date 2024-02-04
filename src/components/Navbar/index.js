@@ -22,6 +22,20 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <Nav>
+      <NavLogo to="/">
+        <a
+          href="#portfolio"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20;",
+            cursor: "pointer",
+          }}
+        >
+          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+        </a>
+      </NavLogo>
       <NavbarContainer>
         <NavLogo to="/">
           <a
