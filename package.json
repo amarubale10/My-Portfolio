@@ -1,8 +1,7 @@
 {
   "name": "amar-ubale-portfolio",
   "version": "0.1.0",
-  "homepage": "https://My-Portfolio",
-   "private": true,
+  "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",

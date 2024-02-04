@@ -17,11 +17,9 @@ import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 
-// import { useTheme } from "styled-components";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
-  // const theme = useTheme();
   return (
     <Nav>
       <NavLogo to="/">
@@ -39,6 +37,20 @@ const Navbar = () => {
         </a>
       </NavLogo>
       <NavbarContainer>
+        <NavLogo to="/">
+          <a
+            href={Bio}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              color: "white",
+              marginBottom: "20;",
+              cursor: "pointer",
+            }}
+          >
+            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          </a>
+        </NavLogo>
         <MobileIcon>
           <FaBars
             onClick={() => {
